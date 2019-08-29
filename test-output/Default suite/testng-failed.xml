@@ -5,7 +5,8 @@
     <classes>
       <class name="restAssured.getListofUsers">
         <methods>
-          <include name="getUsers"/>
+          <include name="CountOfUsers"/>
+          <include name="unAuthorisedcall"/>
         </methods>
       </class> <!-- restAssured.getListofUsers -->
     </classes>
