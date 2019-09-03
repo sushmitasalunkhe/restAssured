@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restAssured.getListofUsers">
+      <class name="restAssured.CreatenewUser">
         <methods>
-          <include name="CountOfUsers"/>
-          <include name="unAuthorisedcall"/>
+          <include name="emptyDetails"/>
+          <include name="CreatenewUser"/>
+          <include name="withoutAuth"/>
         </methods>
-      </class> <!-- restAssured.getListofUsers -->
+      </class> <!-- restAssured.CreatenewUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
