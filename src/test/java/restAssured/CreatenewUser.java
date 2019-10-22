@@ -85,7 +85,7 @@ public class CreatenewUser extends BaseTest {
 		int statusCode=response.getStatusCode();
 		Assert.assertEquals(statusCode, 402);
 	String message=response.jsonPath().get("message");
-	//Assert.assertEquals(message, "Authentication failed.");
+	Assert.assertEquals(message, "Authentication failed.");
 	}
 
 }
